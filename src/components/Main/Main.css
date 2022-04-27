@@ -1,0 +1,75 @@
+main{
+    height: 90vh;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+main h2{
+    font-weight: bold;
+    color: #000;
+}
+main img{
+    width: 200px;
+}
+main img:hover{
+    transform: rotate(-960deg);
+    transition: 7s;
+}
+main a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 40px;
+    background: linear-gradient(to right,#7600BE, #2A0085 );
+}
+ main p{
+     font-weight: bold;
+    color: #666666;
+    opacity: 80%;
+}
+
+@media(min-width:750px){
+    main{
+        padding: 0;
+        align-items: center;
+        
+        width: 100%;
+        margin: 0px;
+    }
+    p{
+        font-size: 22px;
+    }
+    h2{
+        width: 550px;
+        font-size: 38px;
+    }
+    .spinnerAtom{
+        width: 300px;
+    }
+    main a{
+        font-size: 25px;
+        padding: 30px 80px;
+    }
+   
+}
+
+@media(min-width:1000px){
+    main p{
+        font-size: 18px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+    .spinnerAtom{
+        width: 180px;
+    }
+    main a{
+        padding: 20px 60px;
+    }
+}

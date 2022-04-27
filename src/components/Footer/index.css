@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right,#7600BE, #2A0085 );
+    height: 50px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}

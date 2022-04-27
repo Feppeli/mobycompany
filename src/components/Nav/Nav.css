@@ -1,0 +1,66 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    height: 70px;
+    background: linear-gradient(to right,#7600BE, #2A0085 );
+}
+#baleia{
+    width: 80px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo h5{
+    margin-top: 12px;
+}
+h1, h5{
+    color: #FFF;
+}
+
+#navigation div{
+    display: none;
+}
+#navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+}
+#navigation a:hover{
+    color: #c4c4c4;
+    transition: 0.6s;
+}
+
+button{
+    background: none;
+    border:none;
+
+    margin-right: 12px;
+}
+i{
+    color: #fff;
+}
+
+
+@media(min-width:1000px){
+    button{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+        justify-content: space-evenly;
+    }
+    #navigation div{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+}

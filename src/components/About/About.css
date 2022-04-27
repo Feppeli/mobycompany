@@ -1,0 +1,112 @@
+#quemsomos{
+    margin:35px;
+}
+
+#quemsomos h3, h2{
+    font-weight: bold;
+}
+
+#quemsomos hr{
+    background: #000;
+    height: 3px;
+    width: 175px;
+    border: none;
+    margin-top: 5px;
+}
+
+#quemsomos h2{
+    margin-top: 22px;
+}
+
+#quemsomosSub{
+    margin-top: 35px;
+}
+#quemsomosSub hr{
+    height: 3px;
+    width: 270px;
+}
+#quemsomosSub h4{
+    color: #666666;
+    margin-top: 22px;
+}
+
+@media (min-width:750px){
+    #quemsomos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #quemsomos h3{
+        font-size: 30px;
+    }
+    #quemsomosSub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #quemsomosSub h4, h3{
+        width: 550px;
+    }
+    #quemsomosSup   hr{
+        margin-right: 285px;
+        width: 270px;
+    }
+    #quemsomosSub hr{
+        width: 450px;
+        margin-right: 100px;
+    }
+    #quemsomosSub h4{
+        font-size: 22px;
+    }
+}
+
+@media(min-width:1000px){
+    #quemsomos{
+        width: 100%;
+        
+        margin-left: 0;
+        margin-top: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #quemsomosSup h2{
+        margin-top:5px;
+    }
+    #quemsomos h3{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    #quemsomos h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    #quemsomosSub h4{
+        margin: 0;
+    }
+    #quemsomosSup{
+        width: 400px;
+    }
+    #quemsomosSup h2{
+        width: 350px;
+    }
+    #quemsomosSub{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 400px;
+    }
+    #quemsomosSub h4{
+        width: 358px;
+    }
+    #quemsomosSub hr{
+        width: 350px;
+        margin: 0;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    
+
+        
+
+}
