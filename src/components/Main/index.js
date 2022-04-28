@@ -8,7 +8,7 @@ const Main = () => {
             <p> Design, Desenvolvimento & <br/> Consultoria</p>
             <h2>Criamos interfaces de alta conversão com as melhores tecnologias do mercado.</h2>
             <img className="spinnerAtom" alt="" src={Atom}></img>
-            <a href=".">Comece um projeto</a>
+            <a href="https://contate.me/mobycompany">Comece um projeto</a>
         </main>
     )
 }
