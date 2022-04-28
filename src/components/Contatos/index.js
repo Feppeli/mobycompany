@@ -6,7 +6,7 @@ const Contatos = () => {
         <section id="contatos">
             <div id='lancamento'>
                 <h2>Vamos lançar esse<br /> foguete?</h2>
-                <a id="botaoLancamento" href=".">Comece um projeto</a>
+                <a id="botaoLancamento" href="https://contate.me/mobycompany">Comece um projeto</a>
             </div>
 
             <h3>Contatos</h3>
