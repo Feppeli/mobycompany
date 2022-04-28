@@ -12,9 +12,9 @@ const Nav = () => {
             </div>
             <div id='navigation'>
                 <div>
-                    <a href='.'>Quem Somos</a>
-                    <a href='.'>Serviços</a>
-                    <a href='.'>Contatos</a>
+                    <a href='#quemsomos'>Quem Somos</a>
+                    <a href='#servicos'>Serviços</a>
+                    <a href='#contatos'>Contatos</a>
                 </div>
 
 
